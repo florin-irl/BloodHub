@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="upcoming_appointmenttv" type="id" />
+    <item name="upcoming_appointment_whentv" type="id" />
+    <item name="upcoming_appointment_wheretv" type="id" />
+    <item name="upcoming_appointment_timetv" type="id" />
+    <item name="upcoming_appointment_locationtv" type="id" />
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register_nav_graph"
+    app:startDestination="@id/registerFragment">
+
+    <fragment
+        android:id="@+id/registerSuccessFragment"
+        android:name="com.example.bloodhub.ui.register.RegisterSuccessFragment"
+        android:label="fragment_register_success"
+        tools:layout="@layout/fragment_register_success" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.bloodhub.ui.register.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_registerSuccessFragment2"
+            app:destination="@id/registerSuccessFragment" />
+    </fragment>
+
+
+</navigation>

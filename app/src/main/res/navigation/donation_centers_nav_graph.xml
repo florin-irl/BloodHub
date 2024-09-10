@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/donation_centers_nav_graph"
+    app:startDestination="@id/donationCentersListFragment">
+
+    <fragment
+        android:id="@+id/donationCentersListFragment"
+        android:name="com.example.bloodhub.ui.clinics.DonationCentersListFragment"
+        android:label="fragment_donation_centers"
+        tools:layout="@layout/fragment_donation_centers_list">
+        <action
+            android:id="@+id/action_donationCentersListFragment_to_newAppointmentFragment"
+            app:destination="@id/newAppointmentFragment">
+            <argument
+                android:name="donationCenterId"
+                app:argType="integer" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/newAppointmentFragment"
+        android:name="com.example.bloodhub.ui.appointments.NewAppointmentFragment"
+        android:label="NewAppointmentFragment">
+        <argument
+            android:name="donationCenterId"
+            app:argType="integer"
+             />
+    </fragment>
+</navigation>

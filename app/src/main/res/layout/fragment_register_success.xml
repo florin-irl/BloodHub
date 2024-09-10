@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.register.RegisterSuccessFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_success_check"
+            android:layout_width="@dimen/extra_extra_large_125"
+            android:layout_height="@dimen/extra_extra_large_125"
+            android:contentDescription="@string/success_checkmark_description"
+            android:src="@drawable/check" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_150"
+            android:fontFamily="@font/poppins"
+            android:text="@string/success"
+            android:textSize="@dimen/text_175" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_success_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/large_175"
+            android:layout_marginTop="@dimen/normal_100"
+            android:text="@string/register_success_message"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_100" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_continue"
+            android:layout_width="@dimen/extra_extra_large_175"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_100"
+            android:text="@string/continue."
+            android:textSize="@dimen/text_75" />
+    </LinearLayout>
+</FrameLayout>

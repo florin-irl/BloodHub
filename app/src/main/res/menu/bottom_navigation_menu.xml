@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/userProfileFragment"
+        android:title="@string/profile"
+        android:icon="@drawable/account_selector"/>
+
+    <item android:id="@+id/donationCentersFragment"
+        android:title="@string/centers"
+        android:icon="@drawable/family_home_selector" />
+
+    <item android:id="@+id/appointmentsListFragment"
+        android:title="@string/appointments"
+        android:icon="@drawable/event_selector" />
+
+    <item android:id="@+id/donationRequestsFragment"
+        android:title="@string/emergencies"
+        android:icon="@drawable/emergency_selector" />
+
+</menu>

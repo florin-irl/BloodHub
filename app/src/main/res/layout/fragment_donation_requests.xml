@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.emergencies.DonationRequestsFragment"
+    android:orientation="vertical">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/normal_100"
+        android:text="@string/emergenciesRecycler"
+        android:layout_gravity="top|center_horizontal"
+        android:fontFamily="@font/poppins"
+        android:textSize="@dimen/text_125" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_emergencies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        />
+
+</LinearLayout>

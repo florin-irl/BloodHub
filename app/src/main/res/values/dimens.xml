@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="extra_small_25">1dp</dimen>
+    <dimen name="extra_small_50">2dp</dimen>
+    <dimen name="extra_small_100">4dp</dimen>
+    <dimen name="extra_small_150">6dp</dimen>
+
+    <dimen name="small_100">8dp</dimen>
+    <dimen name="small_125">10dp</dimen>
+    <dimen name="small_150">12dp</dimen>
+    <dimen name="small_175">14dp</dimen>
+
+    <dimen name="normal_100">16dp</dimen>
+    <dimen name="normal_125">20dp</dimen>
+    <dimen name="normal_150">24dp</dimen>
+    <dimen name="normal_175">28dp</dimen>
+
+    <dimen name="large_100">32dp</dimen>
+    <dimen name="large_125">40dp</dimen>
+    <dimen name="large_150">48dp</dimen>
+    <dimen name="large_175">56dp</dimen>
+
+    <dimen name="extra_large_100">64dp</dimen>
+    <dimen name="extra_large_125">80dp</dimen>
+    <dimen name="extra_large_150">96dp</dimen>
+    <dimen name="extra_large_175">112dp</dimen>
+
+    <dimen name="extra_extra_large_100">128dp</dimen>
+    <dimen name="extra_extra_large_125">160dp</dimen>
+    <dimen name="extra_extra_large_150">192dp</dimen>
+    <dimen name="extra_extra_large_175">224dp</dimen>
+    <dimen name="extra_extra_large_200">256dp</dimen>
+
+    <dimen name="text_50">12sp</dimen>
+    <dimen name="text_75">18sp</dimen>
+    <dimen name="text_100">24sp</dimen>
+    <dimen name="text_125">30sp</dimen>
+    <dimen name="text_150">36sp</dimen>
+    <dimen name="text_175">42sp</dimen>
+    <dimen name="text_200">48sp</dimen>
+</resources>

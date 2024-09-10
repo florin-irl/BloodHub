@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/appointment_nav_graph"
+    app:startDestination="@id/loadingFragment">
+
+    <fragment
+        android:id="@+id/my_appointments"
+        android:name="com.example.bloodhub.ui.appointments.MyAppointments"
+        android:label="MyAppointments" />
+    <fragment
+        android:id="@+id/my_appointments_empty"
+        android:name="com.example.bloodhub.ui.appointments.MyAppointmentsEmpty"
+        android:label="MyAppointmentsEmpty" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/loadingFragment"
+        android:name="com.example.bloodhub.ui.LoadingFragment"
+        android:label="fragment_loading"
+        tools:layout="@layout/fragment_loading" />
+</navigation>
