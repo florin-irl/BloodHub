@@ -32,7 +32,7 @@ To run the BloodHub app on your local machine, follow these steps:
 
 1. Clone the repository to your local machine using Git:
 
-`git clone https://github.com/ccaesar26/BloodHub.git`
+`git clone https://github.com/florin-irl/BloodHub.git`
 
 
 2. Open the project in Android Studio.
